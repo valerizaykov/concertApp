@@ -44,7 +44,6 @@
                                             <option value="{{ $user->id}}">{{ $user->name}}</option>
                                         @endforeach
                                     </select>
-                                    <!--<input id="inputuser" type="text" class="form-control" name="inputuser">-->
                                 </div>
 
                             </div>
