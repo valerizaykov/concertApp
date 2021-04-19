@@ -20,6 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 Route::get('/add_band', 'BandController@create');
 Route::post('/store_band', 'BandController@store')->name('store_band');
-Route::post('/events/search', 'EventController@search')->name('search');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::resource('events', EventController::class);
