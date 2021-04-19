@@ -4,10 +4,10 @@ Also we can add bands for the events , search and sort by date or band name
 # Used Technologies
 - Laravel 8
 - MySQL
-- HTML, JS, CSS
+- HTML, JS, CSS,JQuery
 # Installation 
-- We need laragon with php version 7^
-- After cloning the repo we need to set up the database create a db named:concertDB in laragon 
+- We need Laragon with php version 7^
+- After cloning the repo we need to set up the database create a db named:concertDB in Laragon 
 - .env file
 - DB_CONNECTION=mysql
 - DB_HOST=127.0.0.1
